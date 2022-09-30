@@ -1,7 +1,10 @@
 /**
- * description
+ * @description: IIFE - Immediately Invoked Function Expression
+ * These functions are invoked as soon as they are defined.
+ * They are also called self-invoking functions.
+ * They are used to create a scope for the variables defined inside them.
  */
-(function printHello() {
+(function() {
     console.log("Hello");
 })();
 
